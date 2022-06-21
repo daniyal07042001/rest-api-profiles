@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     #Custom Apps:
     'rest_framework',
     'rest_framework.authtoken',
-    'profiles_api',
+    'profiles_api'
 ]
 
 MIDDLEWARE = [
