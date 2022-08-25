@@ -66,7 +66,7 @@ class ProfileFeedItem(models.Model):
     )
 
     status_text = models.CharField(max_length=255)
-    created_on = models.DateTimeField(auth_now_add=True)
+    created_on = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         """Return model as a string"""
